@@ -1,24 +1,33 @@
 /*
   ==============================================================================
 
-   This file is part of the JUCE library.
-   Copyright (c) 2022 - Raw Material Software Limited
+   This file is part of the JUCE framework.
+   Copyright (c) Raw Material Software Limited
 
-   JUCE is an open source library subject to commercial or open-source
+   JUCE is an open source framework subject to commercial or open source
    licensing.
 
-   By using JUCE, you agree to the terms of both the JUCE 7 End-User License
-   Agreement and JUCE Privacy Policy.
+   By downloading, installing, or using the JUCE framework, or combining the
+   JUCE framework with any other source code, object code, content or any other
+   copyrightable work, you agree to the terms of the JUCE End User Licence
+   Agreement, and all incorporated terms including the JUCE Privacy Policy and
+   the JUCE Website Terms of Service, as applicable, which will bind you. If you
+   do not agree to the terms of these agreements, we will not license the JUCE
+   framework to you, and you must discontinue the installation or download
+   process and cease use of the JUCE framework.
 
-   End User License Agreement: www.juce.com/juce-7-licence
-   Privacy Policy: www.juce.com/juce-privacy-policy
+   JUCE End User Licence Agreement: https://juce.com/legal/juce-8-licence/
+   JUCE Privacy Policy: https://juce.com/juce-privacy-policy
+   JUCE Website Terms of Service: https://juce.com/juce-website-terms-of-service/
 
-   Or: You may also use this code under the terms of the GPL v3 (see
-   www.gnu.org/licenses).
+   Or:
 
-   JUCE IS PROVIDED "AS IS" WITHOUT ANY WARRANTY, AND ALL WARRANTIES, WHETHER
-   EXPRESSED OR IMPLIED, INCLUDING MERCHANTABILITY AND FITNESS FOR PURPOSE, ARE
-   DISCLAIMED.
+   You may also use this code under the terms of the AGPLv3:
+   https://www.gnu.org/licenses/agpl-3.0.en.html
+
+   THE JUCE FRAMEWORK IS PROVIDED "AS IS" WITHOUT ANY WARRANTY, AND ALL
+   WARRANTIES, WHETHER EXPRESSED OR IMPLIED, INCLUDING WARRANTY OF
+   MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, ARE DISCLAIMED.
 
   ==============================================================================
 */
@@ -27,7 +36,7 @@
 - (void) setParent: (FileChooser::Native*) ptr;
 @end
 
-@interface FileChooserDelegateClass : NSObject<UIDocumentPickerDelegate>
+@interface FileChooserDelegateClass : NSObject<UIDocumentPickerDelegate, UIAdaptivePresentationControllerDelegate>
 - (id) initWithOwner: (FileChooser::Native*) owner;
 @end
 
@@ -42,7 +51,6 @@ namespace juce
 //==============================================================================
 class FileChooser::Native final : public FileChooser::Pimpl,
                                   public detail::NativeModalWrapperComponent,
-                                  public AsyncUpdater,
                                   public std::enable_shared_from_this<Native>
 {
 public:
@@ -86,16 +94,9 @@ public:
        #endif
     }
 
-    void handleAsyncUpdate() override
-    {
-        pickerWasCancelled();
-    }
-
     //==============================================================================
     void didPickDocumentsAtURLs (NSArray<NSURL*>* urls)
     {
-        cancelPendingUpdate();
-
         const auto isWriting =  controller.get().documentPickerMode == UIDocumentPickerModeExportToService
                              || controller.get().documentPickerMode == UIDocumentPickerModeMoveToService;
         const auto accessOptions = isWriting ? 0 : NSFileCoordinatorReadingWithoutChanges;
@@ -223,12 +224,14 @@ private:
 
         [controller.get() setDelegate: delegate.get()];
 
+        if (auto* pc = [controller.get() presentationController])
+            [pc setDelegate: delegate.get()];
+
         displayNativeWindowModally (fileChooser.parent);
     }
 
     void passResultsToInitiator (Array<URL> urls)
     {
-        cancelPendingUpdate();
         exitModalState (0);
 
         // If the caller attempts to show a platform-native dialog box inside the results callback (e.g. in the DialogsDemo)
@@ -310,7 +313,7 @@ private:
 
     //==============================================================================
     FileChooser& owner;
-    NSUniquePtr<NSObject<UIDocumentPickerDelegate>> delegate;
+    NSUniquePtr<NSObject<UIDocumentPickerDelegate, UIAdaptivePresentationControllerDelegate>> delegate;
     NSUniquePtr<FileChooserControllerClass> controller;
 
     //==============================================================================
@@ -351,14 +354,6 @@ std::shared_ptr<FileChooser::Pimpl> FileChooser::showPlatformDialog (FileChooser
     ptr = parent->weak_from_this();
 }
 
-- (void) viewDidDisappear: (BOOL) animated
-{
-    [super viewDidDisappear: animated];
-
-    if (auto nativeParent = ptr.lock())
-        nativeParent->triggerAsyncUpdate();
-}
-
 @end
 
 @implementation FileChooserDelegateClass
@@ -388,6 +383,12 @@ JUCE_END_IGNORE_WARNINGS_GCC_LIKE
 }
 
 - (void) documentPickerWasCancelled: (UIDocumentPickerViewController*) controller
+{
+    if (owner != nullptr)
+        owner->pickerWasCancelled();
+}
+
+- (void) presentationControllerDidDismiss: (UIPresentationController *) presentationController
 {
     if (owner != nullptr)
         owner->pickerWasCancelled();

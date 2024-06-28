@@ -1,24 +1,33 @@
 /*
   ==============================================================================
 
-   This file is part of the JUCE library.
-   Copyright (c) 2022 - Raw Material Software Limited
+   This file is part of the JUCE framework.
+   Copyright (c) Raw Material Software Limited
 
-   JUCE is an open source library subject to commercial or open-source
+   JUCE is an open source framework subject to commercial or open source
    licensing.
 
-   By using JUCE, you agree to the terms of both the JUCE 7 End-User License
-   Agreement and JUCE Privacy Policy.
+   By downloading, installing, or using the JUCE framework, or combining the
+   JUCE framework with any other source code, object code, content or any other
+   copyrightable work, you agree to the terms of the JUCE End User Licence
+   Agreement, and all incorporated terms including the JUCE Privacy Policy and
+   the JUCE Website Terms of Service, as applicable, which will bind you. If you
+   do not agree to the terms of these agreements, we will not license the JUCE
+   framework to you, and you must discontinue the installation or download
+   process and cease use of the JUCE framework.
 
-   End User License Agreement: www.juce.com/juce-7-licence
-   Privacy Policy: www.juce.com/juce-privacy-policy
+   JUCE End User Licence Agreement: https://juce.com/legal/juce-8-licence/
+   JUCE Privacy Policy: https://juce.com/juce-privacy-policy
+   JUCE Website Terms of Service: https://juce.com/juce-website-terms-of-service/
 
-   Or: You may also use this code under the terms of the GPL v3 (see
-   www.gnu.org/licenses).
+   Or:
 
-   JUCE IS PROVIDED "AS IS" WITHOUT ANY WARRANTY, AND ALL WARRANTIES, WHETHER
-   EXPRESSED OR IMPLIED, INCLUDING MERCHANTABILITY AND FITNESS FOR PURPOSE, ARE
-   DISCLAIMED.
+   You may also use this code under the terms of the AGPLv3:
+   https://www.gnu.org/licenses/agpl-3.0.en.html
+
+   THE JUCE FRAMEWORK IS PROVIDED "AS IS" WITHOUT ANY WARRANTY, AND ALL
+   WARRANTIES, WHETHER EXPRESSED OR IMPLIED, INCLUDING WARRANTY OF
+   MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, ARE DISCLAIMED.
 
   ==============================================================================
 */
@@ -80,7 +89,7 @@ public:
 
         Label defaultLabel;
 
-        Font font;
+        Font font { FontOptions{} };
         font.setHeight ((float) xml.getDoubleAttribute ("fontsize", 15.0));
         font.setBold (xml.getBoolAttribute ("bold", false));
         font.setItalic (xml.getBoolAttribute ("italic", false));
@@ -236,7 +245,7 @@ private:
                 oldState = comp->getText();
             }
 
-            bool perform()
+            bool perform() override
             {
                 showCorrectTab();
                 getComponent()->setText (newState, dontSendNotification);
@@ -244,7 +253,7 @@ private:
                 return true;
             }
 
-            bool undo()
+            bool undo() override
             {
                 showCorrectTab();
                 getComponent()->setText (oldState, dontSendNotification);
@@ -268,13 +277,13 @@ private:
             choices.add ("edit on double-click");
         }
 
-        void setIndex (int newIndex)
+        void setIndex (int newIndex) override
         {
             document.perform (new LabelEditableChangeAction (component, *document.getComponentLayout(), newIndex),
                               "Change Label editability");
         }
 
-        int getIndex() const
+        int getIndex() const override
         {
             return component->isEditableOnSingleClick()
                     ? 1
@@ -294,7 +303,7 @@ private:
                             : (comp->isEditableOnDoubleClick() ? 2 : 0);
             }
 
-            bool perform()
+            bool perform() override
             {
                 showCorrectTab();
                 getComponent()->setEditable (newState == 1, newState >= 1, getComponent()->doesLossOfFocusDiscardChanges());
@@ -303,7 +312,7 @@ private:
                 return true;
             }
 
-            bool undo()
+            bool undo() override
             {
                 showCorrectTab();
                 getComponent()->setEditable (oldState == 1, oldState >= 1, getComponent()->doesLossOfFocusDiscardChanges());
@@ -327,13 +336,13 @@ private:
             choices.add ("loss of focus commits changes");
         }
 
-        void setIndex (int newIndex)
+        void setIndex (int newIndex) override
         {
             document.perform (new LabelFocusLossChangeAction (component, *document.getComponentLayout(), newIndex == 0),
                               "Change Label focus behaviour");
         }
 
-        int getIndex() const
+        int getIndex() const override
         {
             return component->doesLossOfFocusDiscardChanges() ? 0 : 1;
         }
@@ -349,7 +358,7 @@ private:
                 oldState = comp->doesLossOfFocusDiscardChanges();
             }
 
-            bool perform()
+            bool perform() override
             {
                 showCorrectTab();
                 getComponent()->setEditable (getComponent()->isEditableOnSingleClick(),
@@ -359,7 +368,7 @@ private:
                 return true;
             }
 
-            bool undo()
+            bool undo() override
             {
                 showCorrectTab();
                 getComponent()->setEditable (getComponent()->isEditableOnSingleClick(),
@@ -418,7 +427,7 @@ private:
             {
             }
 
-            bool perform()
+            bool perform() override
             {
                 showCorrectTab();
                 getComponent()->setJustificationType (newState);
@@ -426,7 +435,7 @@ private:
                 return true;
             }
 
-            bool undo()
+            bool undo() override
             {
                 showCorrectTab();
                 getComponent()->setJustificationType (oldState);
@@ -483,7 +492,7 @@ private:
                 oldState = comp->getProperties().getWithDefault ("typefaceName", FontPropertyComponent::getDefaultFont());
             }
 
-            bool perform()
+            bool perform() override
             {
                 showCorrectTab();
                 getComponent()->getProperties().set ("typefaceName", newState);
@@ -492,7 +501,7 @@ private:
                 return true;
             }
 
-            bool undo()
+            bool undo() override
             {
                 showCorrectTab();
                 getComponent()->getProperties().set ("typefaceName", oldState);
@@ -552,7 +561,7 @@ private:
                 oldState = comp->getFont().getHeight();
             }
 
-            bool perform()
+            bool perform() override
             {
                 showCorrectTab();
                 Font f (getComponent()->getFont());
@@ -562,7 +571,7 @@ private:
                 return true;
             }
 
-            bool undo()
+            bool undo() override
             {
                 showCorrectTab();
                 Font f (getComponent()->getFont());
@@ -678,7 +687,7 @@ private:
                 oldState = comp->getFont();
             }
 
-            bool perform()
+            bool perform() override
             {
                 showCorrectTab();
                 getComponent()->setFont (newState);
@@ -686,7 +695,7 @@ private:
                 return true;
             }
 
-            bool undo()
+            bool undo() override
             {
                 showCorrectTab();
                 getComponent()->setFont (oldState);
@@ -694,7 +703,7 @@ private:
                 return true;
             }
 
-            Font newState, oldState;
+            Font newState { FontOptions{} }, oldState { FontOptions{} };
         };
     };
 
@@ -748,7 +757,7 @@ private:
                 oldState = comp->getFont().getExtraKerningFactor();
             }
 
-            bool perform()
+            bool perform() override
             {
                 showCorrectTab();
                 Font f (getComponent()->getFont());
@@ -758,7 +767,7 @@ private:
                 return true;
             }
 
-            bool undo()
+            bool undo() override
             {
                 showCorrectTab();
                 Font f (getComponent()->getFont());

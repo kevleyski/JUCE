@@ -1,24 +1,33 @@
 /*
   ==============================================================================
 
-   This file is part of the JUCE library.
-   Copyright (c) 2022 - Raw Material Software Limited
+   This file is part of the JUCE framework.
+   Copyright (c) Raw Material Software Limited
 
-   JUCE is an open source library subject to commercial or open-source
+   JUCE is an open source framework subject to commercial or open source
    licensing.
 
-   By using JUCE, you agree to the terms of both the JUCE 7 End-User License
-   Agreement and JUCE Privacy Policy.
+   By downloading, installing, or using the JUCE framework, or combining the
+   JUCE framework with any other source code, object code, content or any other
+   copyrightable work, you agree to the terms of the JUCE End User Licence
+   Agreement, and all incorporated terms including the JUCE Privacy Policy and
+   the JUCE Website Terms of Service, as applicable, which will bind you. If you
+   do not agree to the terms of these agreements, we will not license the JUCE
+   framework to you, and you must discontinue the installation or download
+   process and cease use of the JUCE framework.
 
-   End User License Agreement: www.juce.com/juce-7-licence
-   Privacy Policy: www.juce.com/juce-privacy-policy
+   JUCE End User Licence Agreement: https://juce.com/legal/juce-8-licence/
+   JUCE Privacy Policy: https://juce.com/juce-privacy-policy
+   JUCE Website Terms of Service: https://juce.com/juce-website-terms-of-service/
 
-   Or: You may also use this code under the terms of the GPL v3 (see
-   www.gnu.org/licenses).
+   Or:
 
-   JUCE IS PROVIDED "AS IS" WITHOUT ANY WARRANTY, AND ALL WARRANTIES, WHETHER
-   EXPRESSED OR IMPLIED, INCLUDING MERCHANTABILITY AND FITNESS FOR PURPOSE, ARE
-   DISCLAIMED.
+   You may also use this code under the terms of the AGPLv3:
+   https://www.gnu.org/licenses/agpl-3.0.en.html
+
+   THE JUCE FRAMEWORK IS PROVIDED "AS IS" WITHOUT ANY WARRANTY, AND ALL
+   WARRANTIES, WHETHER EXPRESSED OR IMPLIED, INCLUDING WARRANTY OF
+   MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, ARE DISCLAIMED.
 
   ==============================================================================
 */
@@ -52,12 +61,12 @@ public:
     {
     }
 
-    bool perform()
+    bool perform() override
     {
         return changeTo (newValue);
     }
 
-    bool undo()
+    bool undo() override
     {
         return changeTo (oldValue);
     }
@@ -748,14 +757,14 @@ public:
     {
     }
 
-    bool perform()
+    bool perform() override
     {
         showCorrectTab();
         getElement()->setNonZeroWinding (newValue, false);
         return true;
     }
 
-    bool undo()
+    bool undo() override
     {
         showCorrectTab();
         getElement()->setNonZeroWinding (oldValue, false);
@@ -846,7 +855,7 @@ public:
     {
     }
 
-    bool perform()
+    bool perform() override
     {
         showCorrectTab();
 
@@ -862,7 +871,7 @@ public:
         return true;
     }
 
-    bool undo()
+    bool undo() override
     {
         showCorrectTab();
 
@@ -952,7 +961,7 @@ public:
     {
     }
 
-    bool perform()
+    bool perform() override
     {
         showCorrectTab();
 
@@ -963,7 +972,7 @@ public:
         return path != nullptr;
     }
 
-    bool undo()
+    bool undo() override
     {
         showCorrectTab();
 
@@ -1292,17 +1301,17 @@ public:
         owner->getDocument()->addChangeListener (this);
     }
 
-    ~PathPointPositionProperty()
+    ~PathPointPositionProperty() override
     {
         owner->getDocument()->removeChangeListener (this);
     }
 
-    void setPosition (const RelativePositionedRectangle& newPos)
+    void setPosition (const RelativePositionedRectangle& newPos) override
     {
         owner->setPoint (index, pointNumber, newPos, true);
     }
 
-    RelativePositionedRectangle getPosition() const
+    RelativePositionedRectangle getPosition() const override
     {
         return owner->getPoint (index, pointNumber);
     }
@@ -1328,22 +1337,22 @@ public:
         choices.add ("Subpath is open-ended");
     }
 
-    ~PathPointClosedProperty()
+    ~PathPointClosedProperty() override
     {
         owner->getDocument()->removeChangeListener (this);
     }
 
-    void changeListenerCallback (ChangeBroadcaster*)
+    void changeListenerCallback (ChangeBroadcaster*) override
     {
         refresh();
     }
 
-    void setIndex (int newIndex)
+    void setIndex (int newIndex) override
     {
         owner->setSubpathClosed (index, newIndex == 0, true);
     }
 
-    int getIndex() const
+    int getIndex() const override
     {
         return owner->isSubpathClosed (index) ? 0 : 1;
     }
@@ -1364,12 +1373,12 @@ public:
     {
     }
 
-    void buttonClicked()
+    void buttonClicked() override
     {
         owner->addPoint (index, true);
     }
 
-    String getButtonText() const      { return "Add new point"; }
+    String getButtonText() const override      { return "Add new point"; }
 
 private:
     PaintElementPath* const owner;

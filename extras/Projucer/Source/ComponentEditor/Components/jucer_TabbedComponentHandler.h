@@ -1,24 +1,33 @@
 /*
   ==============================================================================
 
-   This file is part of the JUCE library.
-   Copyright (c) 2022 - Raw Material Software Limited
+   This file is part of the JUCE framework.
+   Copyright (c) Raw Material Software Limited
 
-   JUCE is an open source library subject to commercial or open-source
+   JUCE is an open source framework subject to commercial or open source
    licensing.
 
-   By using JUCE, you agree to the terms of both the JUCE 7 End-User License
-   Agreement and JUCE Privacy Policy.
+   By downloading, installing, or using the JUCE framework, or combining the
+   JUCE framework with any other source code, object code, content or any other
+   copyrightable work, you agree to the terms of the JUCE End User Licence
+   Agreement, and all incorporated terms including the JUCE Privacy Policy and
+   the JUCE Website Terms of Service, as applicable, which will bind you. If you
+   do not agree to the terms of these agreements, we will not license the JUCE
+   framework to you, and you must discontinue the installation or download
+   process and cease use of the JUCE framework.
 
-   End User License Agreement: www.juce.com/juce-7-licence
-   Privacy Policy: www.juce.com/juce-privacy-policy
+   JUCE End User Licence Agreement: https://juce.com/legal/juce-8-licence/
+   JUCE Privacy Policy: https://juce.com/juce-privacy-policy
+   JUCE Website Terms of Service: https://juce.com/juce-website-terms-of-service/
 
-   Or: You may also use this code under the terms of the GPL v3 (see
-   www.gnu.org/licenses).
+   Or:
 
-   JUCE IS PROVIDED "AS IS" WITHOUT ANY WARRANTY, AND ALL WARRANTIES, WHETHER
-   EXPRESSED OR IMPLIED, INCLUDING MERCHANTABILITY AND FITNESS FOR PURPOSE, ARE
-   DISCLAIMED.
+   You may also use this code under the terms of the AGPLv3:
+   https://www.gnu.org/licenses/agpl-3.0.en.html
+
+   THE JUCE FRAMEWORK IS PROVIDED "AS IS" WITHOUT ANY WARRANTY, AND ALL
+   WARRANTIES, WHETHER EXPRESSED OR IMPLIED, INCLUDING WARRANTY OF
+   MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, ARE DISCLAIMED.
 
   ==============================================================================
 */
@@ -418,7 +427,7 @@ private:
             choices.add ("Tabs at right");
         }
 
-        void setIndex (int newIndex)
+        void setIndex (int newIndex) override
         {
             const TabbedButtonBar::Orientation orientations[] = { TabbedButtonBar::TabsAtTop,
                                                                   TabbedButtonBar::TabsAtBottom,
@@ -429,7 +438,7 @@ private:
                               "Change TabComponent orientation");
         }
 
-        int getIndex() const
+        int getIndex() const override
         {
             switch (component->getOrientation())
             {
@@ -454,7 +463,7 @@ private:
                 oldState = comp->getOrientation();
             }
 
-            bool perform()
+            bool perform() override
             {
                 showCorrectTab();
                 getComponent()->setOrientation (newState);
@@ -462,7 +471,7 @@ private:
                 return true;
             }
 
-            bool undo()
+            bool undo() override
             {
                 showCorrectTab();
                 getComponent()->setOrientation (oldState);
@@ -485,13 +494,13 @@ private:
                 choices.add ("Tab " + String (i) + ": \"" + comp->getTabNames() [i] + "\"");
         }
 
-        void setIndex (int newIndex)
+        void setIndex (int newIndex) override
         {
             document.perform (new InitialTabChangeAction (component, *document.getComponentLayout(), newIndex),
                               "Change initial tab");
         }
 
-        int getIndex() const
+        int getIndex() const override
         {
             return component->getCurrentTabIndex();
         }
@@ -507,7 +516,7 @@ private:
                 oldValue = comp->getCurrentTabIndex();
             }
 
-            bool perform()
+            bool perform() override
             {
                 showCorrectTab();
                 getComponent()->setCurrentTabIndex (newValue);
@@ -515,7 +524,7 @@ private:
                 return true;
             }
 
-            bool undo()
+            bool undo() override
             {
                 showCorrectTab();
                 getComponent()->setCurrentTabIndex (oldValue);
@@ -578,7 +587,7 @@ private:
                 oldState = comp->getTabBarDepth();
             }
 
-            bool perform()
+            bool perform() override
             {
                 showCorrectTab();
                 getComponent()->setTabBarDepth (newState);
@@ -586,7 +595,7 @@ private:
                 return true;
             }
 
-            bool undo()
+            bool undo() override
             {
                 showCorrectTab();
                 getComponent()->setTabBarDepth (oldState);
@@ -609,13 +618,13 @@ private:
         {
         }
 
-        void buttonClicked()
+        void buttonClicked() override
         {
             document.perform (new AddTabAction (component, *document.getComponentLayout()),
                               "Add a new tab");
         }
 
-        String getButtonText() const
+        String getButtonText() const override
         {
             return "Create a new tab";
         }
@@ -632,7 +641,7 @@ private:
             {
             }
 
-            bool perform()
+            bool perform() override
             {
                 showCorrectTab();
                 addNewTab (getComponent());
@@ -641,7 +650,7 @@ private:
                 return true;
             }
 
-            bool undo()
+            bool undo() override
             {
                 showCorrectTab();
                 getComponent()->removeTab (getComponent()->getNumTabs() - 1);
@@ -663,7 +672,7 @@ private:
         {
         }
 
-        void buttonClicked()
+        void buttonClicked() override
         {
             const StringArray names (component->getTabNames());
 
@@ -681,7 +690,7 @@ private:
             });
         }
 
-        String getButtonText() const
+        String getButtonText() const override
         {
             return "Delete a tab...";
         }
@@ -700,7 +709,7 @@ private:
                 previousState = getTabState (comp, indexToRemove);
             }
 
-            bool perform()
+            bool perform() override
             {
                 showCorrectTab();
 
@@ -710,7 +719,7 @@ private:
                 return true;
             }
 
-            bool undo()
+            bool undo() override
             {
                 showCorrectTab();
                 addNewTab (getComponent(), indexToRemove);
@@ -761,7 +770,7 @@ private:
                 oldValue = comp->getTabNames() [tabIndex];
             }
 
-            bool perform()
+            bool perform() override
             {
                 showCorrectTab();
                 getComponent()->setTabName (tabIndex, newValue);
@@ -769,7 +778,7 @@ private:
                 return true;
             }
 
-            bool undo()
+            bool undo() override
             {
                 showCorrectTab();
                 getComponent()->setTabName (tabIndex, oldValue);
@@ -839,7 +848,7 @@ private:
                 oldValue = comp->getTabBackgroundColour (tabIndex);
             }
 
-            bool perform()
+            bool perform() override
             {
                 showCorrectTab();
                 getComponent()->setTabBackgroundColour (tabIndex, newValue);
@@ -847,7 +856,7 @@ private:
                 return true;
             }
 
-            bool undo()
+            bool undo() override
             {
                 showCorrectTab();
                 getComponent()->setTabBackgroundColour (tabIndex, oldValue);
@@ -873,13 +882,13 @@ private:
             choices.add ("Named content component");
         }
 
-        void setIndex (int newIndex)
+        void setIndex (int newIndex) override
         {
             document.perform (new TabContentTypeChangeAction (component, *document.getComponentLayout(), tabIndex, newIndex == 0),
                               "Change tab content type");
         }
 
-        int getIndex() const
+        int getIndex() const override
         {
             return isTabUsingJucerComp (component, tabIndex) ? 0 : 1;
         }
@@ -898,7 +907,7 @@ private:
                 oldValue = isTabUsingJucerComp (comp, tabIndex);
             }
 
-            bool perform()
+            bool perform() override
             {
                 showCorrectTab();
                 setTabUsingJucerComp (getComponent(), tabIndex, newValue);
@@ -907,7 +916,7 @@ private:
                 return true;
             }
 
-            bool undo()
+            bool undo() override
             {
                 showCorrectTab();
                 setTabUsingJucerComp (getComponent(), tabIndex, oldValue);
@@ -973,7 +982,7 @@ private:
                 oldState = getTabJucerFile (comp, tabIndex);
             }
 
-            bool perform()
+            bool perform() override
             {
                 showCorrectTab();
                 setTabJucerFile (getComponent(), tabIndex, newState);
@@ -981,7 +990,7 @@ private:
                 return true;
             }
 
-            bool undo()
+            bool undo() override
             {
                 showCorrectTab();
                 setTabJucerFile (getComponent(), tabIndex, oldState);
@@ -1029,7 +1038,7 @@ private:
                 oldValue = getTabClassName (comp, tabIndex);
             }
 
-            bool perform()
+            bool perform() override
             {
                 showCorrectTab();
                 setTabClassName (getComponent(), tabIndex, newValue);
@@ -1038,7 +1047,7 @@ private:
                 return true;
             }
 
-            bool undo()
+            bool undo() override
             {
                 showCorrectTab();
                 setTabClassName (getComponent(), tabIndex, oldValue);
@@ -1087,7 +1096,7 @@ private:
                 oldValue = getTabConstructorParams (comp, tabIndex);
             }
 
-            bool perform()
+            bool perform() override
             {
                 showCorrectTab();
                 setTabConstructorParams (getComponent(), tabIndex, newValue);
@@ -1096,7 +1105,7 @@ private:
                 return true;
             }
 
-            bool undo()
+            bool undo() override
             {
                 showCorrectTab();
                 setTabConstructorParams (getComponent(), tabIndex, oldValue);
@@ -1122,10 +1131,9 @@ private:
               tabIndex (tabIndex_),
               totalNumTabs (totalNumTabs_)
         {
-
         }
 
-        void buttonClicked()
+        void buttonClicked() override
         {
             PopupMenu m;
             m.addItem (1, "Move this tab up", tabIndex > 0);
@@ -1140,7 +1148,7 @@ private:
             });
         }
 
-        String getButtonText() const
+        String getButtonText() const override
         {
             return "Move this tab...";
         }
@@ -1176,13 +1184,13 @@ private:
                 changed();
             }
 
-            bool perform()
+            bool perform() override
             {
                 move (oldIndex, newIndex);
                 return true;
             }
 
-            bool undo()
+            bool undo() override
             {
                 move (newIndex, oldIndex);
                 return true;
