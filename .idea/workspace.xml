@@ -3,9 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -22,6 +22,7 @@
       <config projectName="JUCE" targetName="MIDILogger_Unity" />
       <config projectName="JUCE" targetName="SurroundPlugin_VST3" />
       <config projectName="JUCE" targetName="UnitTestRunner" />
+      <config projectName="JUCE" targetName="ArpeggiatorPlugin_AAX" />
       <config projectName="JUCE" targetName="OpenGLDemo" />
       <config projectName="JUCE" targetName="juce_lv2_helper" />
       <config projectName="JUCE" targetName="AudioWorkgroupDemo" />
@@ -29,23 +30,25 @@
       <config projectName="JUCE" targetName="GainPlugin_Standalone" />
       <config projectName="JUCE" targetName="GainPlugin" />
       <config projectName="JUCE" targetName="NoiseGatePlugin_Unity" />
-      <config projectName="JUCE" targetName="GridDemo" />
       <config projectName="JUCE" targetName="DSPModulePluginDemo_Unity" />
+      <config projectName="JUCE" targetName="GridDemo" />
       <config projectName="JUCE" targetName="NoiseGatePlugin_All" />
       <config projectName="JUCE" targetName="PropertiesDemo" />
       <config projectName="JUCE" targetName="SamplerPlugin_VST3" />
       <config projectName="JUCE" targetName="AudioPluginDemo_VST3" />
       <config projectName="JUCE" targetName="AUv3SynthPlugin_All" />
+      <config projectName="JUCE" targetName="WebViewPluginDemo_LV2" />
       <config projectName="JUCE" targetName="CodeEditorDemo" />
       <config projectName="JUCE" targetName="OscillatorDemo" />
       <config projectName="JUCE" targetName="SamplerPlugin_All" />
-      <config projectName="JUCE" targetName="GuiAppExample" />
       <config projectName="JUCE" targetName="AUv3SynthPlugin_AU" />
+      <config projectName="JUCE" targetName="GuiAppExample" />
       <config projectName="JUCE" targetName="DSPModulePluginDemo_Standalone" />
       <config projectName="JUCE" targetName="MIDILogger_All" />
       <config projectName="JUCE" targetName="AudioPluginDemo_Standalone" />
       <config projectName="JUCE" targetName="AudioLatencyDemo" />
       <config projectName="JUCE" targetName="AudioPlaybackDemo" />
+      <config projectName="JUCE" targetName="MultiOutSynthPlugin_AAX" />
       <config projectName="JUCE" targetName="BinaryBuilder" />
       <config projectName="JUCE" targetName="OverdriveDemo" />
       <config projectName="JUCE" targetName="MenusDemo" />
@@ -55,16 +58,17 @@
       <config projectName="JUCE" targetName="ProjucerData" />
       <config projectName="JUCE" targetName="ArpeggiatorPlugin_LV2" />
       <config projectName="JUCE" targetName="MultiOutSynthPlugin_AU" />
-      <config projectName="JUCE" targetName="StateVariableFilterDemo" />
+      <config projectName="JUCE" targetName="WebViewPluginDemo_All" />
       <config projectName="JUCE" targetName="HostPluginDemo_Standalone" />
+      <config projectName="JUCE" targetName="StateVariableFilterDemo" />
       <config projectName="JUCE" targetName="DSPModulePluginDemo_LV2" />
       <config projectName="JUCE" targetName="ValueTreesDemo" />
       <config projectName="JUCE" targetName="FIRFilterDemo" />
       <config projectName="JUCE" targetName="MultiOutSynthPlugin_Standalone" />
       <config projectName="JUCE" targetName="GainPlugin_Unity" />
       <config projectName="JUCE" targetName="WindowsDemo" />
-      <config projectName="JUCE" targetName="MPEDemo" />
       <config projectName="JUCE" targetName="AudioPluginDemo_LV2" />
+      <config projectName="JUCE" targetName="MPEDemo" />
       <config projectName="JUCE" targetName="DialogsDemo" />
       <config projectName="JUCE" targetName="ConvolutionDemo" />
       <config projectName="JUCE" targetName="OpenGLAppDemo" />
@@ -81,11 +85,12 @@
       <config projectName="JUCE" targetName="LiveConstantDemo" />
       <config projectName="JUCE" targetName="FlexBoxDemo" />
       <config projectName="JUCE" targetName="AudioPluginExample" />
-      <config projectName="JUCE" targetName="WidgetsDemo" />
       <config projectName="JUCE" targetName="PushNotificationsDemo" />
+      <config projectName="JUCE" targetName="WidgetsDemo" />
       <config projectName="JUCE" targetName="ArpeggiatorPlugin_Standalone" />
       <config projectName="JUCE" targetName="SurroundPlugin_All" />
       <config projectName="JUCE" targetName="MultiOutSynthPlugin_Unity" />
+      <config projectName="JUCE" targetName="NoiseGatePlugin_AAX" />
       <config projectName="JUCE" targetName="AUv3SynthPlugin_Unity" />
       <config projectName="JUCE" targetName="CameraDemo" />
       <config projectName="JUCE" targetName="GainPlugin_All" />
@@ -93,20 +98,26 @@
       <config projectName="JUCE" targetName="AudioPluginDemo_AU" />
       <config projectName="JUCE" targetName="SIMDRegisterDemo" />
       <config projectName="JUCE" targetName="WebBrowserDemo" />
+      <config projectName="JUCE" targetName="WebViewPluginDemo_Standalone" />
       <config projectName="JUCE" targetName="AudioPluginHostData" />
       <config projectName="JUCE" targetName="MultiOutSynthPlugin_All" />
       <config projectName="JUCE" targetName="FontsDemo" />
       <config projectName="JUCE" targetName="SamplerPlugin" />
+      <config projectName="JUCE" targetName="AudioPluginDemo_AAX" />
       <config projectName="JUCE" targetName="AudioPluginDemo" />
       <config projectName="JUCE" targetName="MultiOutSynthPlugin_LV2" />
       <config projectName="JUCE" targetName="PluckedStringsDemo" />
-      <config projectName="JUCE" targetName="GraphicsDemo" />
-      <config projectName="JUCE" targetName="VideoDemo" />
       <config projectName="JUCE" targetName="ArpeggiatorPlugin_AU" />
+      <config projectName="JUCE" targetName="GraphicsDemo" />
+      <config projectName="JUCE" targetName="MIDILogger_AAX" />
+      <config projectName="JUCE" targetName="VideoDemo" />
+      <config projectName="JUCE" targetName="AnimationEasingDemo" />
       <config projectName="JUCE" targetName="MIDILogger" />
       <config projectName="JUCE" targetName="GainDemo" />
       <config projectName="JUCE" targetName="InAppPurchasesDemo" />
+      <config projectName="JUCE" targetName="SurroundPlugin_AAX" />
       <config projectName="JUCE" targetName="ArpeggiatorPlugin_Unity" />
+      <config projectName="JUCE" targetName="GainPlugin_AAX" />
       <config projectName="JUCE" targetName="HostPluginDemo_Unity" />
       <config projectName="JUCE" targetName="SamplerPlugin_LV2" />
       <config projectName="JUCE" targetName="SurroundPlugin" />
@@ -117,23 +128,28 @@
       <config projectName="JUCE" targetName="ComponentTransformsDemo" />
       <config projectName="JUCE" targetName="NoiseGatePlugin_LV2" />
       <config projectName="JUCE" targetName="DSPModulePluginDemo_VST3" />
+      <config projectName="JUCE" targetName="WebViewPluginDemo" />
       <config projectName="JUCE" targetName="ArpeggiatorPlugin" />
       <config projectName="JUCE" targetName="SamplerPlugin_Unity" />
       <config projectName="JUCE" targetName="ChildProcessDemo" />
+      <config projectName="JUCE" targetName="AnimatorsDemo" />
       <config projectName="JUCE" targetName="OSCDemo" />
       <config projectName="JUCE" targetName="AudioPluginExample_AU" />
+      <config projectName="JUCE" targetName="WebViewPluginDemo_VST3" />
       <config projectName="JUCE" targetName="MultiOutSynthPlugin" />
       <config projectName="JUCE" targetName="MultiOutSynthPlugin_VST3" />
       <config projectName="JUCE" targetName="AudioPluginDemo_Unity" />
       <config projectName="JUCE" targetName="SamplerPlugin_Standalone" />
       <config projectName="JUCE" targetName="NoiseGatePlugin_VST3" />
-      <config projectName="JUCE" targetName="IIRFilterDemo" />
       <config projectName="JUCE" targetName="AudioPluginHost" />
+      <config projectName="JUCE" targetName="IIRFilterDemo" />
       <config projectName="JUCE" targetName="AUv3SynthPlugin_VST3" />
+      <config projectName="JUCE" targetName="DSPModulePluginDemo_AAX" />
       <config projectName="JUCE" targetName="AudioPluginExample_VST3" />
       <config projectName="JUCE" targetName="NetworkGraphicsDemo" />
-      <config projectName="JUCE" targetName="MultiTouchDemo" />
+      <config projectName="JUCE" targetName="WebViewPluginDemo_AU" />
       <config projectName="JUCE" targetName="JavaScriptDemo" />
+      <config projectName="JUCE" targetName="MultiTouchDemo" />
       <config projectName="JUCE" targetName="OpenGLDemo2D" />
       <config projectName="JUCE" targetName="SurroundPlugin_LV2" />
       <config projectName="JUCE" targetName="HostPluginDemo" />
@@ -146,9 +162,10 @@
       <config projectName="JUCE" targetName="MIDILogger_AU" />
       <config projectName="JUCE" targetName="AudioPerformanceTest" />
       <config projectName="JUCE" targetName="AnalyticsCollectionDemo" />
-      <config projectName="JUCE" targetName="AudioRecordingDemo" />
       <config projectName="JUCE" targetName="AudioPluginExample_All" />
+      <config projectName="JUCE" targetName="AudioRecordingDemo" />
       <config projectName="JUCE" targetName="AUv3SynthPlugin_Standalone" />
+      <config projectName="JUCE" targetName="HostPluginDemo_AAX" />
       <config projectName="JUCE" targetName="LookAndFeelDemo" />
       <config projectName="JUCE" targetName="SystemInfoDemo" />
       <config projectName="JUCE" targetName="NoiseGatePlugin_Standalone" />
@@ -156,30 +173,38 @@
       <config projectName="JUCE" targetName="NoiseGatePlugin_AU" />
       <config projectName="JUCE" targetName="KeyMappingsDemo" />
       <config projectName="JUCE" targetName="MDIDemo" />
+      <config projectName="JUCE" targetName="WebViewPluginDemo_Unity" />
       <config projectName="JUCE" targetName="AudioSynthesiserDemo" />
       <config projectName="JUCE" targetName="HostPluginDemo_AU" />
+      <config projectName="JUCE" targetName="SamplerPlugin_AAX" />
       <config projectName="JUCE" targetName="SurroundPlugin_Standalone" />
-      <config projectName="JUCE" targetName="AudioPluginExample_Standalone" />
       <config projectName="JUCE" targetName="ArpeggiatorPlugin_All" />
-      <config projectName="JUCE" targetName="DSPModulePluginDemo_All" />
+      <config projectName="JUCE" targetName="AudioPluginExample_Standalone" />
       <config projectName="JUCE" targetName="Box2DDemo" />
+      <config projectName="JUCE" targetName="DSPModulePluginDemo_All" />
       <config projectName="JUCE" targetName="NoiseGatePlugin" />
+      <config projectName="JUCE" targetName="AUv3SynthPlugin_AAX" />
       <config projectName="JUCE" targetName="SurroundPlugin_Unity" />
       <config projectName="JUCE" targetName="GainPlugin_VST3" />
-      <config projectName="JUCE" targetName="AnimationDemo" />
+      <config projectName="JUCE" targetName="WebViewPluginDemo_AAX" />
       <config projectName="JUCE" targetName="AnimationAppDemo" />
       <config projectName="JUCE" targetName="DSPModulePluginDemo" />
       <config projectName="JUCE" targetName="CryptographyDemo" />
       <config projectName="JUCE" targetName="Projucer" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
-      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DJUCE_BUILD_EXAMPLES:BOOL=ON -DJUCE_BUILD_EXTRAS:BOOL=ON -DJUCE_COPY_PLUGIN_AFTER_BUILD:BOOL=OFF" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b956ae7e-a3fe-48da-b4c4-9c90abd1c8aa" name="Changes" comment="" />
+    <list default="true" id="b956ae7e-a3fe-48da-b4c4-9c90abd1c8aa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/MIDILogger_All.run.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/SamplerPlugin_AU.run.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -203,9 +228,9 @@
     <option name="majorVersion" value="2023" />
     <option name="minorVersion" value="2.2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2bEowfRQTkPSWQ45iJFbCA4V0zq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -213,6 +238,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "CMake Application.HelloWorldDemo.executor": "Debug",
+    "CMake Application.juce_lv2_helper.executor": "Debug",
+    "CMake Application.juce_vst3_helper.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -226,16 +254,17 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CMakeSettings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="CMake Application.SamplerPlugin_AU">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="CMake Application.HelloWorldDemo">
+    <configuration name="AUv3SynthPlugin" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="AUv3SynthPlugin" CONFIG_NAME="Debug">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AUv3SynthPlugin" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="AUv3SynthPlugin" CONFIG_NAME="Debug">
+    <configuration name="AUv3SynthPlugin_AAX" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="AUv3SynthPlugin_AAX" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -285,12 +314,22 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnimationDemo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="AnimationDemo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="JUCE" RUN_TARGET_NAME="AnimationDemo">
+    <configuration name="AnimationEasingDemo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="AnimationEasingDemo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="JUCE" RUN_TARGET_NAME="AnimationEasingDemo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimatorsDemo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="AnimatorsDemo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="JUCE" RUN_TARGET_NAME="AnimatorsDemo">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="ArpeggiatorPlugin" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="ArpeggiatorPlugin" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArpeggiatorPlugin_AAX" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="ArpeggiatorPlugin_AAX" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -346,6 +385,11 @@
       </method>
     </configuration>
     <configuration name="AudioPluginDemo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="AudioPluginDemo" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AudioPluginDemo_AAX" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="AudioPluginDemo_AAX" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -500,6 +544,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DSPModulePluginDemo_AAX" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="DSPModulePluginDemo_AAX" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DSPModulePluginDemo_AU" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="DSPModulePluginDemo_AU" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -565,6 +614,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GainPlugin_AAX" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="GainPlugin_AAX" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GainPlugin_AU" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="GainPlugin_AU" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -610,12 +664,12 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorldDemo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="HelloWorldDemo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="JUCE" RUN_TARGET_NAME="HelloWorldDemo">
+    <configuration name="HostPluginDemo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="HostPluginDemo" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HostPluginDemo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="HostPluginDemo" CONFIG_NAME="Debug">
+    <configuration name="HostPluginDemo_AAX" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="HostPluginDemo_AAX" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -695,7 +749,17 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MIDILogger_AAX" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="MIDILogger_AAX" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MIDILogger_AU" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="MIDILogger_AU" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MIDILogger_All" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="MIDILogger_All" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -736,6 +800,11 @@
       </method>
     </configuration>
     <configuration name="MultiOutSynthPlugin" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="MultiOutSynthPlugin" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiOutSynthPlugin_AAX" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="MultiOutSynthPlugin_AAX" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -791,6 +860,11 @@
       </method>
     </configuration>
     <configuration name="NoiseGatePlugin" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="NoiseGatePlugin" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NoiseGatePlugin_AAX" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="NoiseGatePlugin_AAX" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -890,6 +964,16 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SamplerPlugin_AAX" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="SamplerPlugin_AAX" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SamplerPlugin_AU" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="SamplerPlugin_AU" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SamplerPlugin_All" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="SamplerPlugin_All" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -926,6 +1010,11 @@
       </method>
     </configuration>
     <configuration name="SurroundPlugin" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="SurroundPlugin" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SurroundPlugin_AAX" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="SurroundPlugin_AAX" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -1000,6 +1089,46 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebViewPluginDemo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="WebViewPluginDemo" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebViewPluginDemo_AAX" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="WebViewPluginDemo_AAX" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebViewPluginDemo_AU" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="WebViewPluginDemo_AU" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebViewPluginDemo_All" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="WebViewPluginDemo_All" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebViewPluginDemo_LV2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="WebViewPluginDemo_LV2" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebViewPluginDemo_Standalone" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="WebViewPluginDemo_Standalone" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="JUCE" RUN_TARGET_NAME="WebViewPluginDemo_Standalone">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebViewPluginDemo_Unity" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="WebViewPluginDemo_Unity" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebViewPluginDemo_VST3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="WebViewPluginDemo_VST3" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WidgetsDemo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="WidgetsDemo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="JUCE" RUN_TARGET_NAME="WidgetsDemo">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -1015,6 +1144,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="juce_lv2_helper" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="juce_lv2_helper" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="JUCE" RUN_TARGET_NAME="juce_lv2_helper">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -1026,166 +1160,186 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.juce_lv2_helper" />
-      <item itemvalue="CMake Application.MIDILogger" />
-      <item itemvalue="CMake Application.MIDILogger_All" />
-      <item itemvalue="CMake Application.MIDILogger_AU" />
-      <item itemvalue="CMake Application.MIDILogger_LV2" />
-      <item itemvalue="CMake Application.MIDILogger_Standalone" />
-      <item itemvalue="CMake Application.MIDILogger_Unity" />
-      <item itemvalue="CMake Application.MIDILogger_VST3" />
-      <item itemvalue="CMake Application.MultiOutSynthPlugin" />
-      <item itemvalue="CMake Application.MultiOutSynthPlugin_All" />
-      <item itemvalue="CMake Application.MultiOutSynthPlugin_AU" />
-      <item itemvalue="CMake Application.MultiOutSynthPlugin_LV2" />
-      <item itemvalue="CMake Application.MultiOutSynthPlugin_Standalone" />
-      <item itemvalue="CMake Application.MultiOutSynthPlugin_Unity" />
-      <item itemvalue="CMake Application.MultiOutSynthPlugin_VST3" />
-      <item itemvalue="CMake Application.NoiseGatePlugin" />
-      <item itemvalue="CMake Application.NoiseGatePlugin_All" />
-      <item itemvalue="CMake Application.NoiseGatePlugin_AU" />
-      <item itemvalue="CMake Application.NoiseGatePlugin_LV2" />
-      <item itemvalue="CMake Application.NoiseGatePlugin_Standalone" />
-      <item itemvalue="CMake Application.NoiseGatePlugin_Unity" />
-      <item itemvalue="CMake Application.NoiseGatePlugin_VST3" />
-      <item itemvalue="CMake Application.SamplerPlugin" />
-      <item itemvalue="CMake Application.SamplerPlugin_All" />
-      <item itemvalue="CMake Application.SamplerPlugin_AU" />
-      <item itemvalue="CMake Application.SamplerPlugin_LV2" />
-      <item itemvalue="CMake Application.SamplerPlugin_Standalone" />
-      <item itemvalue="CMake Application.SamplerPlugin_Unity" />
-      <item itemvalue="CMake Application.SamplerPlugin_VST3" />
-      <item itemvalue="CMake Application.SurroundPlugin" />
-      <item itemvalue="CMake Application.SurroundPlugin_All" />
-      <item itemvalue="CMake Application.SurroundPlugin_AU" />
-      <item itemvalue="CMake Application.SurroundPlugin_LV2" />
-      <item itemvalue="CMake Application.SurroundPlugin_Standalone" />
-      <item itemvalue="CMake Application.SurroundPlugin_Unity" />
-      <item itemvalue="CMake Application.SurroundPlugin_VST3" />
-      <item itemvalue="CMake Application.AnalyticsCollectionDemo" />
-      <item itemvalue="CMake Application.Box2DDemo" />
-      <item itemvalue="CMake Application.ChildProcessDemo" />
-      <item itemvalue="CMake Application.CryptographyDemo" />
-      <item itemvalue="CMake Application.InAppPurchasesDemo" />
-      <item itemvalue="CMake Application.JavaScriptDemo" />
-      <item itemvalue="CMake Application.LiveConstantDemo" />
-      <item itemvalue="CMake Application.MultithreadingDemo" />
-      <item itemvalue="CMake Application.NetworkingDemo" />
-      <item itemvalue="CMake Application.OSCDemo" />
-      <item itemvalue="CMake Application.PushNotificationsDemo" />
-      <item itemvalue="CMake Application.SystemInfoDemo" />
-      <item itemvalue="CMake Application.TimersAndEventsDemo" />
-      <item itemvalue="CMake Application.UnitTestsDemo" />
-      <item itemvalue="CMake Application.ValueTreesDemo" />
-      <item itemvalue="CMake Application.XMLandJSONDemo" />
-      <item itemvalue="CMake Application.AudioPerformanceTest" />
-      <item itemvalue="CMake Application.AudioPluginHost" />
-      <item itemvalue="CMake Application.AudioPluginHostData" />
-      <item itemvalue="CMake Application.BinaryBuilder" />
-      <item itemvalue="CMake Application.NetworkGraphicsDemo" />
-      <item itemvalue="CMake Application.Projucer" />
-      <item itemvalue="CMake Application.ProjucerData" />
-      <item itemvalue="CMake Application.UnitTestRunner" />
-      <item itemvalue="CMake Application.AudioAppDemo" />
-      <item itemvalue="CMake Application.AudioLatencyDemo" />
-      <item itemvalue="CMake Application.AudioPlaybackDemo" />
-      <item itemvalue="CMake Application.AudioRecordingDemo" />
-      <item itemvalue="CMake Application.AudioSettingsDemo" />
-      <item itemvalue="CMake Application.AudioSynthesiserDemo" />
-      <item itemvalue="CMake Application.AudioWorkgroupDemo" />
-      <item itemvalue="CMake Application.CapabilityInquiryDemo" />
-      <item itemvalue="CMake Application.MidiDemo" />
-      <item itemvalue="CMake Application.MPEDemo" />
-      <item itemvalue="CMake Application.PluckedStringsDemo" />
-      <item itemvalue="CMake Application.SimpleFFTDemo" />
-      <item itemvalue="CMake Application.AudioPluginExample" />
-      <item itemvalue="CMake Application.AudioPluginExample_All" />
-      <item itemvalue="CMake Application.AudioPluginExample_AU" />
-      <item itemvalue="CMake Application.AudioPluginExample_Standalone" />
-      <item itemvalue="CMake Application.AudioPluginExample_VST3" />
-      <item itemvalue="CMake Application.juce_vst3_helper" />
-      <item itemvalue="CMake Application.ConsoleAppExample" />
-      <item itemvalue="CMake Application.GuiAppExample" />
-      <item itemvalue="CMake Application.DemoRunner" />
-      <item itemvalue="CMake Application.ConvolutionDemo" />
-      <item itemvalue="CMake Application.FIRFilterDemo" />
-      <item itemvalue="CMake Application.GainDemo" />
-      <item itemvalue="CMake Application.IIRFilterDemo" />
-      <item itemvalue="CMake Application.OscillatorDemo" />
-      <item itemvalue="CMake Application.OverdriveDemo" />
-      <item itemvalue="CMake Application.SIMDRegisterDemo" />
-      <item itemvalue="CMake Application.StateVariableFilterDemo" />
-      <item itemvalue="CMake Application.WaveShaperTanhDemo" />
       <item itemvalue="CMake Application.AccessibilityDemo" />
+      <item itemvalue="CMake Application.AnalyticsCollectionDemo" />
       <item itemvalue="CMake Application.AnimationAppDemo" />
-      <item itemvalue="CMake Application.AnimationDemo" />
-      <item itemvalue="CMake Application.BouncingBallWavetableDemo" />
-      <item itemvalue="CMake Application.CameraDemo" />
-      <item itemvalue="CMake Application.CodeEditorDemo" />
-      <item itemvalue="CMake Application.ComponentDemo" />
-      <item itemvalue="CMake Application.ComponentTransformsDemo" />
-      <item itemvalue="CMake Application.DialogsDemo" />
-      <item itemvalue="CMake Application.FlexBoxDemo" />
-      <item itemvalue="CMake Application.FontsDemo" />
-      <item itemvalue="CMake Application.GraphicsDemo" />
-      <item itemvalue="CMake Application.GridDemo" />
-      <item itemvalue="CMake Application.HelloWorldDemo" />
-      <item itemvalue="CMake Application.ImagesDemo" />
-      <item itemvalue="CMake Application.KeyMappingsDemo" />
-      <item itemvalue="CMake Application.LookAndFeelDemo" />
-      <item itemvalue="CMake Application.MDIDemo" />
-      <item itemvalue="CMake Application.MenusDemo" />
-      <item itemvalue="CMake Application.MultiTouchDemo" />
-      <item itemvalue="CMake Application.OpenGLAppDemo" />
-      <item itemvalue="CMake Application.OpenGLDemo" />
-      <item itemvalue="CMake Application.OpenGLDemo2D" />
-      <item itemvalue="CMake Application.PropertiesDemo" />
-      <item itemvalue="CMake Application.VideoDemo" />
-      <item itemvalue="CMake Application.WebBrowserDemo" />
-      <item itemvalue="CMake Application.WidgetsDemo" />
-      <item itemvalue="CMake Application.WindowsDemo" />
+      <item itemvalue="CMake Application.AnimationEasingDemo" />
+      <item itemvalue="CMake Application.AnimatorsDemo" />
       <item itemvalue="CMake Application.ArpeggiatorPlugin" />
+      <item itemvalue="CMake Application.ArpeggiatorPlugin_AAX" />
       <item itemvalue="CMake Application.ArpeggiatorPlugin_All" />
       <item itemvalue="CMake Application.ArpeggiatorPlugin_AU" />
       <item itemvalue="CMake Application.ArpeggiatorPlugin_LV2" />
       <item itemvalue="CMake Application.ArpeggiatorPlugin_Standalone" />
       <item itemvalue="CMake Application.ArpeggiatorPlugin_Unity" />
       <item itemvalue="CMake Application.ArpeggiatorPlugin_VST3" />
+      <item itemvalue="CMake Application.AudioAppDemo" />
+      <item itemvalue="CMake Application.AudioLatencyDemo" />
+      <item itemvalue="CMake Application.AudioPerformanceTest" />
+      <item itemvalue="CMake Application.AudioPlaybackDemo" />
       <item itemvalue="CMake Application.AudioPluginDemo" />
+      <item itemvalue="CMake Application.AudioPluginDemo_AAX" />
       <item itemvalue="CMake Application.AudioPluginDemo_All" />
       <item itemvalue="CMake Application.AudioPluginDemo_AU" />
       <item itemvalue="CMake Application.AudioPluginDemo_LV2" />
       <item itemvalue="CMake Application.AudioPluginDemo_Standalone" />
       <item itemvalue="CMake Application.AudioPluginDemo_Unity" />
       <item itemvalue="CMake Application.AudioPluginDemo_VST3" />
+      <item itemvalue="CMake Application.AudioPluginExample" />
+      <item itemvalue="CMake Application.AudioPluginExample_All" />
+      <item itemvalue="CMake Application.AudioPluginExample_AU" />
+      <item itemvalue="CMake Application.AudioPluginExample_Standalone" />
+      <item itemvalue="CMake Application.AudioPluginExample_VST3" />
+      <item itemvalue="CMake Application.AudioPluginHost" />
+      <item itemvalue="CMake Application.AudioPluginHostData" />
+      <item itemvalue="CMake Application.AudioRecordingDemo" />
+      <item itemvalue="CMake Application.AudioSettingsDemo" />
+      <item itemvalue="CMake Application.AudioSynthesiserDemo" />
+      <item itemvalue="CMake Application.AudioWorkgroupDemo" />
       <item itemvalue="CMake Application.AUv3SynthPlugin" />
+      <item itemvalue="CMake Application.AUv3SynthPlugin_AAX" />
       <item itemvalue="CMake Application.AUv3SynthPlugin_All" />
       <item itemvalue="CMake Application.AUv3SynthPlugin_AU" />
       <item itemvalue="CMake Application.AUv3SynthPlugin_LV2" />
       <item itemvalue="CMake Application.AUv3SynthPlugin_Standalone" />
       <item itemvalue="CMake Application.AUv3SynthPlugin_Unity" />
       <item itemvalue="CMake Application.AUv3SynthPlugin_VST3" />
+      <item itemvalue="CMake Application.BinaryBuilder" />
+      <item itemvalue="CMake Application.BouncingBallWavetableDemo" />
+      <item itemvalue="CMake Application.Box2DDemo" />
+      <item itemvalue="CMake Application.CameraDemo" />
+      <item itemvalue="CMake Application.CapabilityInquiryDemo" />
+      <item itemvalue="CMake Application.ChildProcessDemo" />
+      <item itemvalue="CMake Application.CodeEditorDemo" />
+      <item itemvalue="CMake Application.ComponentDemo" />
+      <item itemvalue="CMake Application.ComponentTransformsDemo" />
+      <item itemvalue="CMake Application.ConsoleAppExample" />
+      <item itemvalue="CMake Application.ConvolutionDemo" />
+      <item itemvalue="CMake Application.CryptographyDemo" />
+      <item itemvalue="CMake Application.DemoRunner" />
+      <item itemvalue="CMake Application.DialogsDemo" />
       <item itemvalue="CMake Application.DSPModulePluginDemo" />
+      <item itemvalue="CMake Application.DSPModulePluginDemo_AAX" />
       <item itemvalue="CMake Application.DSPModulePluginDemo_All" />
       <item itemvalue="CMake Application.DSPModulePluginDemo_AU" />
       <item itemvalue="CMake Application.DSPModulePluginDemo_LV2" />
       <item itemvalue="CMake Application.DSPModulePluginDemo_Standalone" />
       <item itemvalue="CMake Application.DSPModulePluginDemo_Unity" />
       <item itemvalue="CMake Application.DSPModulePluginDemo_VST3" />
+      <item itemvalue="CMake Application.FIRFilterDemo" />
+      <item itemvalue="CMake Application.FlexBoxDemo" />
+      <item itemvalue="CMake Application.FontsDemo" />
+      <item itemvalue="CMake Application.GainDemo" />
       <item itemvalue="CMake Application.GainPlugin" />
+      <item itemvalue="CMake Application.GainPlugin_AAX" />
       <item itemvalue="CMake Application.GainPlugin_All" />
       <item itemvalue="CMake Application.GainPlugin_AU" />
       <item itemvalue="CMake Application.GainPlugin_LV2" />
       <item itemvalue="CMake Application.GainPlugin_Standalone" />
       <item itemvalue="CMake Application.GainPlugin_Unity" />
       <item itemvalue="CMake Application.GainPlugin_VST3" />
+      <item itemvalue="CMake Application.GraphicsDemo" />
+      <item itemvalue="CMake Application.GridDemo" />
+      <item itemvalue="CMake Application.GuiAppExample" />
+      <item itemvalue="CMake Application.HelloWorldDemo" />
       <item itemvalue="CMake Application.HostPluginDemo" />
+      <item itemvalue="CMake Application.HostPluginDemo_AAX" />
       <item itemvalue="CMake Application.HostPluginDemo_All" />
       <item itemvalue="CMake Application.HostPluginDemo_AU" />
       <item itemvalue="CMake Application.HostPluginDemo_LV2" />
       <item itemvalue="CMake Application.HostPluginDemo_Standalone" />
       <item itemvalue="CMake Application.HostPluginDemo_Unity" />
       <item itemvalue="CMake Application.HostPluginDemo_VST3" />
+      <item itemvalue="CMake Application.IIRFilterDemo" />
+      <item itemvalue="CMake Application.ImagesDemo" />
+      <item itemvalue="CMake Application.InAppPurchasesDemo" />
+      <item itemvalue="CMake Application.JavaScriptDemo" />
+      <item itemvalue="CMake Application.juce_lv2_helper" />
+      <item itemvalue="CMake Application.juce_vst3_helper" />
+      <item itemvalue="CMake Application.KeyMappingsDemo" />
+      <item itemvalue="CMake Application.LiveConstantDemo" />
+      <item itemvalue="CMake Application.LookAndFeelDemo" />
+      <item itemvalue="CMake Application.MDIDemo" />
+      <item itemvalue="CMake Application.MenusDemo" />
+      <item itemvalue="CMake Application.MidiDemo" />
+      <item itemvalue="CMake Application.MIDILogger" />
+      <item itemvalue="CMake Application.MIDILogger_AAX" />
+      <item itemvalue="CMake Application.MIDILogger_All" />
+      <item itemvalue="CMake Application.MIDILogger_AU" />
+      <item itemvalue="CMake Application.MIDILogger_LV2" />
+      <item itemvalue="CMake Application.MIDILogger_Standalone" />
+      <item itemvalue="CMake Application.MIDILogger_Unity" />
+      <item itemvalue="CMake Application.MIDILogger_VST3" />
+      <item itemvalue="CMake Application.MPEDemo" />
+      <item itemvalue="CMake Application.MultiOutSynthPlugin" />
+      <item itemvalue="CMake Application.MultiOutSynthPlugin_AAX" />
+      <item itemvalue="CMake Application.MultiOutSynthPlugin_All" />
+      <item itemvalue="CMake Application.MultiOutSynthPlugin_AU" />
+      <item itemvalue="CMake Application.MultiOutSynthPlugin_LV2" />
+      <item itemvalue="CMake Application.MultiOutSynthPlugin_Standalone" />
+      <item itemvalue="CMake Application.MultiOutSynthPlugin_Unity" />
+      <item itemvalue="CMake Application.MultiOutSynthPlugin_VST3" />
+      <item itemvalue="CMake Application.MultithreadingDemo" />
+      <item itemvalue="CMake Application.MultiTouchDemo" />
+      <item itemvalue="CMake Application.NetworkGraphicsDemo" />
+      <item itemvalue="CMake Application.NetworkingDemo" />
+      <item itemvalue="CMake Application.NoiseGatePlugin" />
+      <item itemvalue="CMake Application.NoiseGatePlugin_AAX" />
+      <item itemvalue="CMake Application.NoiseGatePlugin_All" />
+      <item itemvalue="CMake Application.NoiseGatePlugin_AU" />
+      <item itemvalue="CMake Application.NoiseGatePlugin_LV2" />
+      <item itemvalue="CMake Application.NoiseGatePlugin_Standalone" />
+      <item itemvalue="CMake Application.NoiseGatePlugin_Unity" />
+      <item itemvalue="CMake Application.NoiseGatePlugin_VST3" />
+      <item itemvalue="CMake Application.OpenGLAppDemo" />
+      <item itemvalue="CMake Application.OpenGLDemo" />
+      <item itemvalue="CMake Application.OpenGLDemo2D" />
+      <item itemvalue="CMake Application.OSCDemo" />
+      <item itemvalue="CMake Application.OscillatorDemo" />
+      <item itemvalue="CMake Application.OverdriveDemo" />
+      <item itemvalue="CMake Application.PluckedStringsDemo" />
+      <item itemvalue="CMake Application.Projucer" />
+      <item itemvalue="CMake Application.ProjucerData" />
+      <item itemvalue="CMake Application.PropertiesDemo" />
+      <item itemvalue="CMake Application.PushNotificationsDemo" />
+      <item itemvalue="CMake Application.SamplerPlugin" />
+      <item itemvalue="CMake Application.SamplerPlugin_AAX" />
+      <item itemvalue="CMake Application.SamplerPlugin_All" />
+      <item itemvalue="CMake Application.SamplerPlugin_AU" />
+      <item itemvalue="CMake Application.SamplerPlugin_LV2" />
+      <item itemvalue="CMake Application.SamplerPlugin_Standalone" />
+      <item itemvalue="CMake Application.SamplerPlugin_Unity" />
+      <item itemvalue="CMake Application.SamplerPlugin_VST3" />
+      <item itemvalue="CMake Application.SIMDRegisterDemo" />
+      <item itemvalue="CMake Application.SimpleFFTDemo" />
+      <item itemvalue="CMake Application.StateVariableFilterDemo" />
+      <item itemvalue="CMake Application.SurroundPlugin" />
+      <item itemvalue="CMake Application.SurroundPlugin_AAX" />
+      <item itemvalue="CMake Application.SurroundPlugin_All" />
+      <item itemvalue="CMake Application.SurroundPlugin_AU" />
+      <item itemvalue="CMake Application.SurroundPlugin_LV2" />
+      <item itemvalue="CMake Application.SurroundPlugin_Standalone" />
+      <item itemvalue="CMake Application.SurroundPlugin_Unity" />
+      <item itemvalue="CMake Application.SurroundPlugin_VST3" />
+      <item itemvalue="CMake Application.SystemInfoDemo" />
+      <item itemvalue="CMake Application.TimersAndEventsDemo" />
+      <item itemvalue="CMake Application.UnitTestRunner" />
+      <item itemvalue="CMake Application.UnitTestsDemo" />
+      <item itemvalue="CMake Application.ValueTreesDemo" />
+      <item itemvalue="CMake Application.VideoDemo" />
+      <item itemvalue="CMake Application.WaveShaperTanhDemo" />
+      <item itemvalue="CMake Application.WebBrowserDemo" />
+      <item itemvalue="CMake Application.WebViewPluginDemo" />
+      <item itemvalue="CMake Application.WebViewPluginDemo_AAX" />
+      <item itemvalue="CMake Application.WebViewPluginDemo_All" />
+      <item itemvalue="CMake Application.WebViewPluginDemo_AU" />
+      <item itemvalue="CMake Application.WebViewPluginDemo_LV2" />
+      <item itemvalue="CMake Application.WebViewPluginDemo_Standalone" />
+      <item itemvalue="CMake Application.WebViewPluginDemo_Unity" />
+      <item itemvalue="CMake Application.WebViewPluginDemo_VST3" />
+      <item itemvalue="CMake Application.WidgetsDemo" />
+      <item itemvalue="CMake Application.WindowsDemo" />
+      <item itemvalue="CMake Application.XMLandJSONDemo" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -1204,9 +1358,12 @@
     <option name="version" value="3" />
   </component>
   <component name="VCPKGProject">
-    <isAutomaticEditVcpkgJson value="false" />
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
-    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
