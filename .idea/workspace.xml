@@ -56,6 +56,7 @@
       <config projectName="JUCE" targetName="WaveShaperTanhDemo" />
       <config projectName="JUCE" targetName="AUv3SynthPlugin_LV2" />
       <config projectName="JUCE" targetName="ProjucerData" />
+      <config projectName="JUCE" targetName="kasm_unify_diva" />
       <config projectName="JUCE" targetName="ArpeggiatorPlugin_LV2" />
       <config projectName="JUCE" targetName="MultiOutSynthPlugin_AU" />
       <config projectName="JUCE" targetName="WebViewPluginDemo_All" />
@@ -94,6 +95,7 @@
       <config projectName="JUCE" targetName="AUv3SynthPlugin_Unity" />
       <config projectName="JUCE" targetName="CameraDemo" />
       <config projectName="JUCE" targetName="GainPlugin_All" />
+      <config projectName="JUCE" targetName="kasm_unify" />
       <config projectName="JUCE" targetName="MIDILogger_VST3" />
       <config projectName="JUCE" targetName="AudioPluginDemo_AU" />
       <config projectName="JUCE" targetName="SIMDRegisterDemo" />
@@ -200,10 +202,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b956ae7e-a3fe-48da-b4c4-9c90abd1c8aa" name="Changes" comment="CLion">
-      <change afterPath="$PROJECT_DIR$/.run/ArpeggiatorPlugin.run.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.run/GuiAppExample.run.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.run/MIDILogger_AU.run.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.run/kasm_unify.run.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.run/kasm_unify_diva.run.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/kasm_unify" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/ArpeggiatorPlugin.run.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/GuiAppExample.run.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/HelloWorldDemo.run.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/MIDILogger_AU.run.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/Projucer.run.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/examples/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/kasm_unify/Diva/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/examples/kasm_unify/Diva/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/kasm_unify/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +226,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/examples/kasm_unify" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="fhihefbm" />
@@ -247,14 +258,18 @@
     "CMake Application.Projucer.executor": "Debug",
     "CMake Application.juce_lv2_helper.executor": "Debug",
     "CMake Application.juce_vst3_helper.executor": "Debug",
+    "CMake Application.kasm_unify.executor": "Debug",
+    "CMake Application.kasm_unify_diva.executor": "Debug",
+    "CMake Debug.Project.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "WebServerToolWindowFactoryState": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Volumes/KJSL/workspace/github_kevleyski/JUCE",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Volumes/KJSL/workspace/github_kevleyski/JUCE/examples/kasm_unify/Diva",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -264,7 +279,21 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="CMake Application.Projucer">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/examples/kasm_unify/Diva" />
+      <recent name="$PROJECT_DIR$/examples/kasm_unify/Source" />
+      <recent name="$PROJECT_DIR$/examples/kasm_unify" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/examples/kasm_unify" />
+      <recent name="$PROJECT_DIR$/examples" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.kasm_unify_diva">
+    <configuration name="Project" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
+      <method v="2" />
+    </configuration>
     <configuration name="AUv3SynthPlugin" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="AUv3SynthPlugin" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -326,6 +355,11 @@
       </method>
     </configuration>
     <configuration name="AnimatorsDemo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="AnimatorsDemo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="JUCE" RUN_TARGET_NAME="AnimatorsDemo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArpeggiatorPlugin" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="ArpeggiatorPlugin" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -660,7 +694,17 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HostPluginDemo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="HostPluginDemo" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/cmake-build-debug/juce_vst3_helper">
+    <configuration name="GuiAppExample" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="GuiAppExample" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="JUCE" RUN_TARGET_NAME="GuiAppExample">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorldDemo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="HelloWorldDemo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="JUCE" RUN_TARGET_NAME="HelloWorldDemo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HostPluginDemo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="HostPluginDemo" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -746,6 +790,11 @@
       </method>
     </configuration>
     <configuration name="MIDILogger_AAX" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="MIDILogger_AAX" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MIDILogger_AU" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="MIDILogger_AU" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -921,6 +970,11 @@
       </method>
     </configuration>
     <configuration name="PluckedStringsDemo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="PluckedStringsDemo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="JUCE" RUN_TARGET_NAME="PluckedStringsDemo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Projucer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="Projucer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="JUCE" RUN_TARGET_NAME="Projucer">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -1242,6 +1296,8 @@
       <item itemvalue="CMake Application.JavaScriptDemo" />
       <item itemvalue="CMake Application.juce_lv2_helper" />
       <item itemvalue="CMake Application.juce_vst3_helper" />
+      <item itemvalue="CMake Application.kasm_unify" />
+      <item itemvalue="CMake Application.kasm_unify_diva" />
       <item itemvalue="CMake Application.KeyMappingsDemo" />
       <item itemvalue="CMake Application.LiveConstantDemo" />
       <item itemvalue="CMake Application.LookAndFeelDemo" />
@@ -1326,7 +1382,13 @@
       <item itemvalue="CMake Application.WidgetsDemo" />
       <item itemvalue="CMake Application.WindowsDemo" />
       <item itemvalue="CMake Application.XMLandJSONDemo" />
+      <item itemvalue="CMake Debug.Project" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="CMake Debug.Project" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -1337,6 +1399,11 @@
       <option name="presentableId" value="Default" />
       <updated>1705789838851</updated>
       <workItem from="1705789840185" duration="4354000" />
+      <workItem from="1719628639745" duration="598000" />
+      <workItem from="1719630995302" duration="598000" />
+      <workItem from="1719643110084" duration="606000" />
+      <workItem from="1719657545402" duration="3741000" />
+      <workItem from="1719662293449" duration="1784000" />
     </task>
     <task id="LOCAL-00001" summary="CLion">
       <option name="closed" value="true" />
@@ -1346,7 +1413,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719621119990</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="CLion">
+      <option name="closed" value="true" />
+      <created>1719621655814</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719621655814</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1360,6 +1435,32 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CLion" />
     <option name="LAST_COMMIT_MESSAGE" value="CLion" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/examples/kasm_unify/Source/Kasm_Unifier.cpp</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/examples/kasm_unify/Source/Kasm_Unifier.cpp</url>
+          <line>45</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/examples/kasm_unify/FXP/Source/Main.cpp</url>
+          <line>7</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/examples/kasm_unify/FXP/Source/MyVstUtils.cpp</url>
+          <line>16</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
