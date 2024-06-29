@@ -201,20 +201,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b956ae7e-a3fe-48da-b4c4-9c90abd1c8aa" name="Changes" comment="CLion">
-      <change afterPath="$PROJECT_DIR$/.run/kasm_unify.run.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.run/kasm_unify_diva.run.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="b956ae7e-a3fe-48da-b4c4-9c90abd1c8aa" name="Changes" comment="Kasm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/ArpeggiatorPlugin.run.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/GuiAppExample.run.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/HelloWorldDemo.run.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/MIDILogger_AU.run.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/Projucer.run.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/examples/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/kasm_unify/Diva/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/examples/kasm_unify/Diva/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/kasm_unify/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/kasm_unify" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +216,13 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/examples/kasm_unify" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/examples/kasm_unify" value="kasm" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="fhihefbm" />
@@ -268,7 +264,7 @@
     "WebServerToolWindowFactoryState": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "/Volumes/KJSL/workspace/github_kevleyski/JUCE/examples/kasm_unify/Diva",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -1387,6 +1383,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="CMake Debug.Project" />
+        <item itemvalue="CMake Debug.Project" />
       </list>
     </recent_temporary>
   </component>
@@ -1403,7 +1400,7 @@
       <workItem from="1719630995302" duration="598000" />
       <workItem from="1719643110084" duration="606000" />
       <workItem from="1719657545402" duration="3741000" />
-      <workItem from="1719662293449" duration="1784000" />
+      <workItem from="1719662293449" duration="2131000" />
     </task>
     <task id="LOCAL-00001" summary="CLion">
       <option name="closed" value="true" />
@@ -1421,7 +1418,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719621655814</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Kasm">
+      <option name="closed" value="true" />
+      <created>1719664179459</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719664179459</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1432,9 +1437,21 @@
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CLion" />
-    <option name="LAST_COMMIT_MESSAGE" value="CLion" />
+    <MESSAGE value="Kasm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kasm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
