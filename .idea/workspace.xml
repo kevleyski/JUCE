@@ -53,11 +53,9 @@
       <config projectName="JUCE" targetName="OverdriveDemo" />
       <config projectName="JUCE" targetName="MenusDemo" />
       <config projectName="JUCE" targetName="AudioPluginDemo_All" />
-      <config projectName="JUCE" targetName="kasm_unify_patchmaker" />
       <config projectName="JUCE" targetName="WaveShaperTanhDemo" />
       <config projectName="JUCE" targetName="AUv3SynthPlugin_LV2" />
       <config projectName="JUCE" targetName="ProjucerData" />
-      <config projectName="JUCE" targetName="kasm_unify_diva" />
       <config projectName="JUCE" targetName="ArpeggiatorPlugin_LV2" />
       <config projectName="JUCE" targetName="MultiOutSynthPlugin_AU" />
       <config projectName="JUCE" targetName="WebViewPluginDemo_All" />
@@ -96,7 +94,6 @@
       <config projectName="JUCE" targetName="AUv3SynthPlugin_Unity" />
       <config projectName="JUCE" targetName="CameraDemo" />
       <config projectName="JUCE" targetName="GainPlugin_All" />
-      <config projectName="JUCE" targetName="kasm_unify" />
       <config projectName="JUCE" targetName="MIDILogger_VST3" />
       <config projectName="JUCE" targetName="AudioPluginDemo_AU" />
       <config projectName="JUCE" targetName="SIMDRegisterDemo" />
@@ -189,6 +186,7 @@
       <config projectName="JUCE" targetName="AUv3SynthPlugin_AAX" />
       <config projectName="JUCE" targetName="SurroundPlugin_Unity" />
       <config projectName="JUCE" targetName="GainPlugin_VST3" />
+      <config projectName="JUCE" targetName="Kasm_Unifier" />
       <config projectName="JUCE" targetName="WebViewPluginDemo_AAX" />
       <config projectName="JUCE" targetName="AnimationAppDemo" />
       <config projectName="JUCE" targetName="DSPModulePluginDemo" />
@@ -204,13 +202,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b956ae7e-a3fe-48da-b4c4-9c90abd1c8aa" name="Changes" comment="Kasm Unifier (multi instrument/effects)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Assets/Uhe/Zebra2/TODO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Assets/Zebra2/Kevs Zebra Org.aupreset" beforeDir="false" afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Assets/Uhe/Zebra2/Kevs Zebra Org.aupreset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Assets/Zebra2/Kevs Zebra Org.h2p" beforeDir="false" afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Assets/Uhe/Zebra2/Kevs Zebra Org.h2p" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Assets/Zebra2/Kevs Zebra Org.patch/#Root.cst" beforeDir="false" afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Assets/Uhe/Zebra2/Kevs Zebra Org.patch/#Root.cst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Assets/Zebra2/Kevs Zebra Org.patch/data.plist" beforeDir="false" afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Assets/Uhe/Zebra2/Kevs Zebra Org.patch/data.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Assets/Zebra2/Kevs Zebra Org.txt" beforeDir="false" afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Assets/Uhe/Zebra2/Kevs Zebra Org.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Builds/MacOSX/Kasm_Unifier.xcodeproj/project.xcworkspace/xcuserdata/klambert.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Builds/MacOSX/Kasm_Unifier.xcodeproj/project.xcworkspace/xcuserdata/klambert.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/examples/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +220,7 @@
         <entry key="$PROJECT_DIR$/examples/kasm_unify" value="kasm" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/examples/kasm_unify" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MacroExpansionManager">
@@ -257,6 +249,7 @@
     "CMake Application.GuiAppExample.executor": "Debug",
     "CMake Application.HelloWorldDemo.executor": "Debug",
     "CMake Application.HostPluginDemo.executor": "Debug",
+    "CMake Application.Kasm_Unifier.executor": "Debug",
     "CMake Application.MIDILogger_AU.executor": "Debug",
     "CMake Application.Projucer.executor": "Debug",
     "CMake Application.juce_lv2_helper.executor": "Debug",
@@ -272,7 +265,7 @@
     "WebServerToolWindowFactoryState": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "kasm",
     "last_opened_file_path": "/Volumes/KJSL/workspace/github_kevleyski/JUCE/examples",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -292,14 +285,14 @@
       <recent name="$PROJECT_DIR$/examples/kasm_unify/Diva" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/examples/Kasm Unifer/Assets/Uhe/Zebra2" />
       <recent name="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Assets/Uhe" />
       <recent name="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/Assets/Uhe/Diva" />
       <recent name="$PROJECT_DIR$/examples/kasm_unify/Diva/Assets" />
       <recent name="$PROJECT_DIR$/examples/kasm_unify" />
-      <recent name="$PROJECT_DIR$/examples" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.kasm_unify_patchmaker">
+  <component name="RunManager" selected="CMake Application.Kasm_Unifier">
     <configuration name="Project" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
     </configuration>
@@ -1208,21 +1201,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kasm_unify" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="kasm_unify" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="JUCE" RUN_TARGET_NAME="kasm_unify">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="kasm_unify_diva" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="kasm_unify_diva" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="JUCE" RUN_TARGET_NAME="kasm_unify_diva">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="kasm_unify_patchmaker" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="kasm_unify_patchmaker" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="JUCE" RUN_TARGET_NAME="kasm_unify_patchmaker">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="CMake Application.AccessibilityDemo" />
       <item itemvalue="CMake Application.AnalyticsCollectionDemo" />
@@ -1320,9 +1298,7 @@
       <item itemvalue="CMake Application.JavaScriptDemo" />
       <item itemvalue="CMake Application.juce_lv2_helper" />
       <item itemvalue="CMake Application.juce_vst3_helper" />
-      <item itemvalue="CMake Application.kasm_unify" />
-      <item itemvalue="CMake Application.kasm_unify_diva" />
-      <item itemvalue="CMake Application.kasm_unify_patchmaker" />
+      <item itemvalue="CMake Application.Kasm_Unifier" />
       <item itemvalue="CMake Application.KeyMappingsDemo" />
       <item itemvalue="CMake Application.LiveConstantDemo" />
       <item itemvalue="CMake Application.LookAndFeelDemo" />
@@ -1431,7 +1407,7 @@
       <workItem from="1719657545402" duration="3741000" />
       <workItem from="1719662293449" duration="9738000" />
       <workItem from="1719696965131" duration="5443000" />
-      <workItem from="1719705128079" duration="960000" />
+      <workItem from="1719705128079" duration="3177000" />
     </task>
     <task id="LOCAL-00001" summary="CLion">
       <option name="closed" value="true" />
@@ -1481,7 +1457,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719700818981</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Kasm Unifier (multi instrument/effects)">
+      <option name="closed" value="true" />
+      <created>1719706177777</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719706177777</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1529,6 +1513,11 @@
           <url>file://$PROJECT_DIR$/examples/kasm_unify/Diva/Source/PatchConverter.cpp</url>
           <line>128</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/examples/Kasm Unifer/Source/PatchConverter.cpp</url>
+          <line>34</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
