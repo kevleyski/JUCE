@@ -202,57 +202,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b956ae7e-a3fe-48da-b4c4-9c90abd1c8aa" name="Changes" comment="(revert kam from main))">
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/Assets/Kevs Swishy VST3.base64" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/Assets/Kevs Swishy.h2p" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/Assets/One Diva Layer.unify" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/Assets/One Diva Layer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/AppConfig.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/BinaryData.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/BinaryData.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/JuceHeader.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/ReadMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_audio_basics.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_audio_basics.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_audio_devices.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_audio_devices.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_audio_formats.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_audio_formats.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_audio_processors.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_audio_processors.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_audio_processors_ara.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_audio_processors_lv2_libs.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_core.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_core.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_core_CompilationTime.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_cryptography.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_cryptography.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_data_structures.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_data_structures.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_events.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_events.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_graphics.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_graphics.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_graphics_Harfbuzz.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_gui_basics.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_gui_basics.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_gui_extra.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_gui_extra.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_opengl.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/JuceLibraryCode/include_juce_opengl.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/Kasm_Unifier.jucer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/Source/Main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/Source/MainComponent.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/Source/MainComponent.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/Source/PatchConverter.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/Source/PatchConverter.h" afterDir="false" />
+    <list default="true" id="b956ae7e-a3fe-48da-b4c4-9c90abd1c8aa" name="Changes" comment="Kasm Unifier (multi instrument/effects)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/kasm_unify.run.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/kasm_unify_diva.run.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/examples/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/kasm_unify/Diva/Builds/MacOSX/Diva_Unifier.xcodeproj/project.xcworkspace/xcuserdata/klambert.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/examples/kasm_unify/Diva/Builds/MacOSX/Diva_Unifier.xcodeproj/project.xcworkspace/xcuserdata/klambert.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Assets/Uhe/Zebra2/TODO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Assets/Zebra2/Kevs Zebra Org.aupreset" beforeDir="false" afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Assets/Uhe/Zebra2/Kevs Zebra Org.aupreset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Assets/Zebra2/Kevs Zebra Org.h2p" beforeDir="false" afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Assets/Uhe/Zebra2/Kevs Zebra Org.h2p" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Assets/Zebra2/Kevs Zebra Org.patch/#Root.cst" beforeDir="false" afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Assets/Uhe/Zebra2/Kevs Zebra Org.patch/#Root.cst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Assets/Zebra2/Kevs Zebra Org.patch/data.plist" beforeDir="false" afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Assets/Uhe/Zebra2/Kevs Zebra Org.patch/data.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Assets/Zebra2/Kevs Zebra Org.txt" beforeDir="false" afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Assets/Uhe/Zebra2/Kevs Zebra Org.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Builds/MacOSX/Kasm_Unifier.xcodeproj/project.xcworkspace/xcuserdata/klambert.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Builds/MacOSX/Kasm_Unifier.xcodeproj/project.xcworkspace/xcuserdata/klambert.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,7 +273,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Volumes/KJSL/workspace/github_kevleyski/JUCE/examples/kasm_unify/Kasm Unifier",
+    "last_opened_file_path": "/Volumes/KJSL/workspace/github_kevleyski/JUCE/examples",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -327,24 +285,21 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/examples" />
       <recent name="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier" />
       <recent name="$PROJECT_DIR$/examples/kasm_unify" />
       <recent name="$PROJECT_DIR$/examples/kasm_unify/Diva/Assets" />
       <recent name="$PROJECT_DIR$/examples/kasm_unify/Diva" />
-      <recent name="$PROJECT_DIR$/examples/kasm_unify/Source" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifer/Assets/Uhe" />
+      <recent name="$PROJECT_DIR$/examples/kasm_unify/Kasm Unifier/Assets/Uhe/Diva" />
       <recent name="$PROJECT_DIR$/examples/kasm_unify/Diva/Assets" />
       <recent name="$PROJECT_DIR$/examples/kasm_unify" />
       <recent name="$PROJECT_DIR$/examples" />
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.kasm_unify_patchmaker">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Project" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
     </configuration>
@@ -1238,6 +1193,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="juce_lv2_helper" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JUCE" TARGET_NAME="juce_lv2_helper" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="JUCE" RUN_TARGET_NAME="juce_lv2_helper">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -1470,7 +1430,8 @@
       <workItem from="1719643110084" duration="606000" />
       <workItem from="1719657545402" duration="3741000" />
       <workItem from="1719662293449" duration="9738000" />
-      <workItem from="1719696965131" duration="3640000" />
+      <workItem from="1719696965131" duration="5443000" />
+      <workItem from="1719705128079" duration="960000" />
     </task>
     <task id="LOCAL-00001" summary="CLion">
       <option name="closed" value="true" />
@@ -1504,7 +1465,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719664450871</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Kasm Unifier (multi instrument/effects)">
+      <option name="closed" value="true" />
+      <created>1719700661954</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719700661954</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Kasm Unifier (multi instrument/effects)">
+      <option name="closed" value="true" />
+      <created>1719700818981</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719700818981</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1542,7 +1519,8 @@
     <MESSAGE value="CLion" />
     <MESSAGE value="Kasm" />
     <MESSAGE value="(revert kam from main))" />
-    <option name="LAST_COMMIT_MESSAGE" value="(revert kam from main))" />
+    <MESSAGE value="Kasm Unifier (multi instrument/effects)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kasm Unifier (multi instrument/effects)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
