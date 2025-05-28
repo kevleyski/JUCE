@@ -37,7 +37,7 @@
                         juce_audio_plugin_client, juce_audio_processors,
                         juce_audio_utils, juce_core, juce_data_structures,
                         juce_events, juce_graphics, juce_gui_basics, juce_gui_extra
- exporters:             xcode_mac, vs2017, vs2022, linux_make, xcode_iphone, androidstudio
+ exporters:             xcode_mac, vs2022, linux_make, xcode_iphone, androidstudio
 
  moduleFlags:           JUCE_STRICT_REFCOUNTEDPOINTER=1
 
@@ -470,8 +470,8 @@ private:
             auto trackColour = getProcessor().getTrackProperties().colour;
             auto& lf = getLookAndFeel();
 
-            backgroundColour = (trackColour == Colour() ? lf.findColour (ResizableWindow::backgroundColourId)
-                                                        : trackColour.withAlpha (1.0f).withBrightness (0.266f));
+            backgroundColour = (trackColour.has_value() ? trackColour->withAlpha (1.0f).withBrightness (0.266f)
+                                                        : lf.findColour (ResizableWindow::backgroundColourId));
             repaint();
         }
 
